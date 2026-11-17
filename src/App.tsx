@@ -468,7 +468,7 @@ export default function App() {
   // Add Custom Folder
   const handleAddCustomFolder = useCallback(async () => {
     if (!isElectron || !window.electronAPI) {
-      const path = window.prompt('Enter folder path to add (e.g. /Users/salman/Projects/Photos):');
+      const path = window.prompt('Enter folder path to add (e.g. /Users/username/Pictures):');
       if (!path) return;
       const customFolder: ScannedFolderInfo = {
         id: `folder-${Date.now()}`,

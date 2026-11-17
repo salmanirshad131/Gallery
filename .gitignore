@@ -1,9 +1,22 @@
+# Dependencies
 node_modules/
-build/
+
+# Production Builds & Packaging
 dist/
+build/
 release/
+
+# Testing & Logs
 coverage/
-.DS_Store
 *.log
+
+# Environment & Local Secrets
 .env*
 !.env.example
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Agent & Local Tools
+.gemini/

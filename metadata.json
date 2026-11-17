@@ -1,6 +1,0 @@
-{
-  "name": "Photos",
-  "description": "Native Apple macOS Gallery and Photo Browser with liquid frosted glass UI, automatic Mac folder scanning (Pictures, Desktop, Downloads, Movies), categorized views (All, Photos, Videos, Screenshots, Panoramas, Screen Recordings, GIFs), Quick Look lightbox, custom video player, and macOS Get Info inspector.",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
-}
